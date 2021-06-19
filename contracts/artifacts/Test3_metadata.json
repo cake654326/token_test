@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "asset",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "allowee",
+						"type": "address"
+					}
+				],
+				"name": "tokenAllowAll",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/test3.sol": "Test3"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/erc20/IERC20.sol": {
+			"keccak256": "0x694b989b371044e7a6730ce6d4b3da45679b7d5a5ff57cb6d6d84d567add5312",
+			"urls": [
+				"bzz-raw://529be491ce5d5ff6de81273a85d17fdd0a7e1f50121b7a8b886f3612ad39caa1",
+				"dweb:/ipfs/Qmd2KFSZtkSeyUES6z2c2UdZhMQ6AgKLz6DXkqX5ApyfFE"
+			]
+		},
+		"contracts/erc20/SafeERC20.sol": {
+			"keccak256": "0x0022121f9651cbba053f2ffaebf4320573c6f8ecc083e232fef1bd8df2df500d",
+			"urls": [
+				"bzz-raw://d5e006c0842b78ddb69f1d3c620226f10560de0073f2f1afe09c36a8823476a6",
+				"dweb:/ipfs/QmThmNvsEDRmVirJsk3r68n2Asgo6kyKoXcyEeZF83ChJf"
+			]
+		},
+		"contracts/test3.sol": {
+			"keccak256": "0xaf2dde074b58dfea08e5f7eb0d0844295aea2510990c9bb2ed6c896d8a0725a5",
+			"urls": [
+				"bzz-raw://7b6129604cc83235780a43f2ac28c8acace980e146f328e62bf3277256eb2640",
+				"dweb:/ipfs/QmTY4YN9mBTNJXsEAwBEnqsQ4mqUnkUncCTV3ECxicSsCt"
+			]
+		}
+	},
+	"version": 1
+}

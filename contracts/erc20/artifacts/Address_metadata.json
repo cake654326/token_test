@@ -1,0 +1,42 @@
+{
+	"compiler": {
+		"version": "0.5.0+commit.1d4f565a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/erc20/SafeERC20.sol": "Address"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/erc20/IERC20.sol": {
+			"keccak256": "0x694b989b371044e7a6730ce6d4b3da45679b7d5a5ff57cb6d6d84d567add5312",
+			"urls": [
+				"bzzr://e22be3015ff6accba546b12f9f49cbc89bbbcb5f703add1dd43afed232513b24"
+			]
+		},
+		"contracts/erc20/SafeERC20.sol": {
+			"keccak256": "0x0022121f9651cbba053f2ffaebf4320573c6f8ecc083e232fef1bd8df2df500d",
+			"urls": [
+				"bzzr://a91aca798760be383ee97c757a78adee979bcf895b5685c4ff62a7f9076f98af"
+			]
+		}
+	},
+	"version": 1
+}

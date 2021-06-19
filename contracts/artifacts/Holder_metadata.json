@@ -1,0 +1,81 @@
+{
+	"compiler": {
+		"version": "0.5.0+commit.1d4f565a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"name": "recipient",
+						"type": "address"
+					}
+				],
+				"name": "approveOtherContract",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "recipient",
+						"type": "address"
+					}
+				],
+				"name": "doStuff",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Holder.sol": "Holder"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Holder.sol": {
+			"keccak256": "0x653f3495cc77388238c9081bb1c902efbca7e84aa63c75b4289af458d5259343",
+			"urls": [
+				"bzzr://86de4fc38e51b02bf8aba6956412d04011d587614bca76e48a3640285a50005a"
+			]
+		},
+		"contracts/erc20/IERC20.sol": {
+			"keccak256": "0x694b989b371044e7a6730ce6d4b3da45679b7d5a5ff57cb6d6d84d567add5312",
+			"urls": [
+				"bzzr://e22be3015ff6accba546b12f9f49cbc89bbbcb5f703add1dd43afed232513b24"
+			]
+		},
+		"contracts/erc20/SafeERC20.sol": {
+			"keccak256": "0x0022121f9651cbba053f2ffaebf4320573c6f8ecc083e232fef1bd8df2df500d",
+			"urls": [
+				"bzzr://a91aca798760be383ee97c757a78adee979bcf895b5685c4ff62a7f9076f98af"
+			]
+		}
+	},
+	"version": 1
+}

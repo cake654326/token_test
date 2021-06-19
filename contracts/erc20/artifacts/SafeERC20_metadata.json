@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.5.0+commit.1d4f565a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Wrappers around ERC20 operations that throw on failure (when the token contract returns false). Tokens that return no value (and instead revert or throw on failure) are also supported, non-reverting calls are assumed to be successful. To use this library you can add a `using SafeERC20 for ERC20;` statement to your contract, which allows you to call the safe operations as `token.safeTransfer(...)`, etc.",
+			"methods": {},
+			"title": "SafeERC20"
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/erc20/SafeERC20.sol": "SafeERC20"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/erc20/IERC20.sol": {
+			"keccak256": "0x694b989b371044e7a6730ce6d4b3da45679b7d5a5ff57cb6d6d84d567add5312",
+			"urls": [
+				"bzzr://e22be3015ff6accba546b12f9f49cbc89bbbcb5f703add1dd43afed232513b24"
+			]
+		},
+		"contracts/erc20/SafeERC20.sol": {
+			"keccak256": "0x0022121f9651cbba053f2ffaebf4320573c6f8ecc083e232fef1bd8df2df500d",
+			"urls": [
+				"bzzr://a91aca798760be383ee97c757a78adee979bcf895b5685c4ff62a7f9076f98af"
+			]
+		}
+	},
+	"version": 1
+}
